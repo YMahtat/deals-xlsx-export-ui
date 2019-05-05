@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  baseBackEndUrl: 'https://dxc-friends.herokuapp.com',
 };

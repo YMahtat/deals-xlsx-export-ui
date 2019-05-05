@@ -1,0 +1,21 @@
+.btn-outline-danger{
+  width: 85%;
+  line-height: 100%;
+}
+
+.input-group-prepend{
+  width: 15%;
+  padding: 0px;
+  margin: 0px;
+}
+.input-group-text{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.excel-img{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}

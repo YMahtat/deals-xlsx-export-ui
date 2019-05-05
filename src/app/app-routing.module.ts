@@ -3,10 +3,12 @@ import { CommonModule } from '@angular/common';
 import {RouterModule, Routes} from '@angular/router';
 import {DealsComponent} from './deals/deals.component';
 import {ErrorPageComponent} from './error-page/error-page.component';
+import {HomeComponent} from './home/home.component';
 
 const routes: Routes = [
   { path: 'deals', component: DealsComponent },
-  { path: '', redirectTo: '/deals', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: ErrorPageComponent}
 ];
 
